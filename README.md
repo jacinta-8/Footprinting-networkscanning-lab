@@ -57,23 +57,23 @@ Phases 3-5 of the wider program are still in progress and not part of this repo 
 ![whois output](whois.png)
 
 - **WhatWeb:** WordPress and the WP Download Manager plugin identified, plus Apache, jQuery, Bootstrap and Google Tag Manager.
-- 
+  
 ![whatweb output](whatweb.png)
 
 - **nslookup:** resolves to `192.232.216.135`.
-- 
+ 
 ![nslookup output](nslookup.png)
   
 - **curl -I:** headers exposed the WordPress REST API endpoint `/wp-json/`.
-- 
+  
 ![curl output](curl.png)
-- 
+
 - **wafw00f:** site sits behind **ModSecurity (SpiderLabs)**.
 ![WAF output](WAF.png)
-- 
+
 - **DNSRecon:** name server, mail server, SPF/TXT and service records enumerated.
 ![dnsrecon output](dnsrecon.png)
-- 
+
 
 ### Phase 2: Zenmap scan of the LAN
 
