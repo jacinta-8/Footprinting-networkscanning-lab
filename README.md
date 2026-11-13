@@ -55,15 +55,33 @@ Phases 3-5 of the wider program are still in progress and not part of this repo 
 - **WHOIS:** registered via GoDaddy, DNSSEC unsigned, name servers on HostGator.
 
 ![whois output](whois.png)
+
 - **WhatWeb:** WordPress and the WP Download Manager plugin identified, plus Apache, jQuery, Bootstrap and Google Tag Manager.
+- 
+![whatweb output](whatweb.png)
+
 - **nslookup:** resolves to `192.232.216.135`.
+- 
+![nslookup output](nslookup.png)
+  
 - **curl -I:** headers exposed the WordPress REST API endpoint `/wp-json/`.
+- 
+![curl output](curl.png)
+- 
 - **wafw00f:** site sits behind **ModSecurity (SpiderLabs)**.
+![WAF output](WAF.png)
+- 
 - **DNSRecon:** name server, mail server, SPF/TXT and service records enumerated.
+![dnsrecon output](dnsrecon.png)
+- 
 
 ### Phase 2: Zenmap scan of the LAN
 
 Command: `nmap -sn 192.168.100.0/24` (Ping Scan profile). 256 addresses scanned in 9.64 s, **5 hosts up**:
+
+![zmap output](zmap.png)
+
+![nmap output](nmap.png)
 
 | IP | MAC vendor (OUI) |
 |---|---|
@@ -73,6 +91,8 @@ Command: `nmap -sn 192.168.100.0/24` (Ping Scan profile). 256 addresses scanned 
 | 192.168.100.72 | Apple |
 | 192.168.100.74 | Unknown |
 
+
+![host layout output](layout.png)
 
 ## Risk summary
 
@@ -87,7 +107,6 @@ These are **observations, not confirmed vulnerabilities**. No exploitation or vu
 | 5 | DNS infrastructure information exposed | Medium |
 | 6 | Multiple live hosts visible on local network | Medium |
 
-Details: [`docs/risk-register.md`](docs/risk-register.md).
 
 ## Recommendations
 
