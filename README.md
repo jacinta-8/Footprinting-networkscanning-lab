@@ -15,7 +15,8 @@ A hands-on penetration-testing project covering **Phase 1 (Reconnaissance & Foot
 
 **Modules:** W2-PM1 (Multiple Kali Tools) and W2-PM5 (Zenmap Scanning)
 
-> Full write-up: [`W2-PM-FINAL_Penetration_Testing_Report.pdf`](report/W2-PM-FINAL_Penetration_Testing_Report.pdf)
+
+[View the full report (PDF)](<W2-PM-FINAL - Penetration Testing Report.pdf>)
 
 ---
 
