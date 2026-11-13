@@ -8,8 +8,11 @@
 A hands-on penetration-testing project covering **Phase 1 (Reconnaissance & Footprinting)** and **Phase 2 (Scanning & Network Discovery)**. It shows how an attacker moves from gathering public information about a domain to mapping live hosts on a network, and what a defender should do about each finding.
 
 **Author:** Jacinta Kawila Nzuki
+
 **Program:** Cybersecurity & Ethical Hacking Internship, Networkwalks (Batch B084)
+
 **Report date:** 11 November 2026
+
 **Modules:** W2-PM1 (Multiple Kali Tools) and W2-PM5 (Zenmap Scanning)
 
 > Full write-up: [`report/W2-PM-FINAL_Penetration_Testing_Report.pdf`](report/W2-PM-FINAL_Penetration_Testing_Report.pdf)
@@ -18,8 +21,7 @@ A hands-on penetration-testing project covering **Phase 1 (Reconnaissance & Foot
 
 ## Legal & ethical notice
 
-All activity was performed only on systems I had **written permission** to test (networkwalks.com, as part of the internship) or that I **own** (my home LAN). This material is for education and research. Do not run these tools against systems you do not own or have explicit authorization to test.
-
+All activity was performed only on systems I had **written permission** to test (networkwalks.com, as part of the internship) or that I **own** (my home LAN).
 ---
 
 ## Project overview
@@ -68,7 +70,6 @@ Command: `nmap -sn 192.168.100.0/24` (Ping Scan profile). 256 addresses scanned 
 | 192.168.100.72 | Apple |
 | 192.168.100.74 | Unknown |
 
-Full MAC addresses are intentionally omitted here. A topology map was generated in Zenmap and saved as PDF (report, page 9).
 
 ## Risk summary
 
@@ -96,22 +97,6 @@ Details: [`docs/risk-register.md`](docs/risk-register.md).
 7. Investigate any unknown device found on the network.
 8. Maintain up-to-date network topology documentation.
 9. Only test with proper authorization.
-
-## Repository structure
-
-```
-.
-├── README.md
-├── LICENSE
-├── report/
-│   └── W2-PM-FINAL_Penetration_Testing_Report.pdf
-├── docs/
-│   ├── commands.md
-│   ├── methodology.md
-│   └── risk-register.md
-└── evidence/
-    └── README.md
-```
 
 ## What I learned
 
