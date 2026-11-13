@@ -105,11 +105,8 @@ Details: [`docs/risk-register.md`](docs/risk-register.md).
 - A version number or IP does not by itself mean a system is vulnerable; further authorized testing is needed to confirm.
 - Scope and authorization always come first.
 
-## Next steps
+## Author: Jacinta Kawila
 
-- Phases 3-5 of the program (in progress)
-- Add sanitized screenshots to `evidence/`
+## Linkedin: https://www.linkedin.com/in/jacinta-kawila/
 
-## License
 
-MIT, see [LICENSE](LICENSE). Educational use.
