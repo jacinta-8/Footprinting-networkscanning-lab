@@ -53,6 +53,8 @@ Phases 3-5 of the wider program are still in progress and not part of this repo 
 ### Phase 1: Footprinting `networkwalks.com`
 
 - **WHOIS:** registered via GoDaddy, DNSSEC unsigned, name servers on HostGator.
+
+![whois output](whois.png)
 - **WhatWeb:** WordPress and the WP Download Manager plugin identified, plus Apache, jQuery, Bootstrap and Google Tag Manager.
 - **nslookup:** resolves to `192.232.216.135`.
 - **curl -I:** headers exposed the WordPress REST API endpoint `/wp-json/`.
